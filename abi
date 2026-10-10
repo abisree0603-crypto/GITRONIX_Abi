@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Workshop Meme</title>
+<style>
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #101820, #243b55);
+  color: white;
+  text-align: center;
+}
+.card {
+  max-width: 500px;
+  margin: 20px;
+  padding: 30px;
+  background: #fff;
+  color: #17202a;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px #0006;
+}
+h1 { color: #238636; }
+.meme { font-size: 65px; }
+p { font-size: 20px; line-height: 1.5; }
+.tag { color: #238636; font-weight: bold; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="meme">😎 💻 🚀</div>
+    <h1>GitHub Workshop</h1>
+    <p><b>Me before the workshop:</b><br>
+    "I just write code."</p>
+    <p><b>Me after learning Git:</b><br>
+    "Commit. Push. Flex. Repeat."</p>
+    <p class="tag">One small commit for me,<br>
+    one giant push to GitHub!</p>
+    <p> #GitHubWorkshop #CodeLife </p>
+  </div>
+</body>
+</html>
